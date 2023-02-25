@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.maincontainer{
+ justify-content: center;
+ align-items: center;
+ position:absolute;
+ width: 100vw;
+ height: 100vh;
+ background-color: rgb(243, 158, 0);
+display:flex;
+
+}
+
+.box{
+    text-align: center;
+    background-color: white;
+    width: 420px;
+    height: 200px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.box > h1{
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+#num{
+    width: 206px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.btn{
+    height: 27px;
+    background-color: red;
+    width: 61px;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 8px;
+    color: white;
+    font-style: bold;
+
+}
+
+.btn:hover{
+    background-color: #ff6666;
+    cursor: pointer;
+}
+
+.number-guesses{
+    margin: 7px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.number-game-result{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
